@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="format-detection" content="telephone=no">
-<meta name="app-version" content="20261012-1900">
+<meta name="app-version" content="20261012-1945">
 <meta name="theme-color" content="#A48542">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -165,8 +165,11 @@ body.sub .hero{display:none}
 body.sub .app{padding-top:env(safe-area-inset-top,0px)}
 .sess{grid-template-columns:52px 1fr;padding:13px 12px}
 .sess .ti{font-size:16.5px}
-.sess .sp{font-size:14.5px;line-height:1.55;margin-top:3px}
-.sess .vn{font-size:13px;line-height:1.5;margin-top:4px}
+.sess .sp{font-size:14.5px;line-height:1.55;margin-top:3px;color:var(--fg);opacity:.82}
+.sess .vn{font-size:12.5px;line-height:1.5;margin-top:5px;color:var(--muted);display:flex;gap:4px;align-items:flex-start}
+.pin{width:12px;height:12px;flex:0 0 auto;margin-top:3px;stroke:var(--accent);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.why{background:var(--accent-soft);border-left:3px solid var(--accent);padding:9px 12px;margin:8px 0 10px;font-size:14px;border-radius:0 8px 8px 0}
+.why b{color:var(--accent-ink);display:block;margin-bottom:3px;font-size:13px}
 .tag{font-size:11.5px}
 .bnav a{font-size:12px}
 .copy{min-height:44px;padding:8px 14px}
@@ -217,7 +220,7 @@ footer a{color:inherit}
 <div class="app">
 <header class="hero">
   <img class="banner" src="banner.jpg" width="941" height="619" alt="土士14期 美国周 · AI应用与创新涌现 · 旧金山/硅谷 · 2026.10.25–10.31">
-  <div class="hero-meta">中国企业家俱乐部 · 土士学习联盟 · 第十四期 · 带队：程虹秘书长 · 工作组：赫蕊、赖海若<br>Chinese Entrepreneur Club · Tosee Learning</div>
+  <div class="hero-meta">中国企业家俱乐部 · 土士学习联盟 · 第十四期 · 带队：程虹秘书长 · 土士老师：赫蕊、赖海若<br>Chinese Entrepreneur Club · Tosee Learning</div>
 </header>
 
 <section id="v-cover" class="view">
@@ -236,53 +239,53 @@ footer a{color:inherit}
     <a href="#d30" data-day="d30"><b>30</b><small>周五</small></a>
     <a href="#d31" data-day="d31"><b>31</b><small>周六</small></a>
   </nav>
-  <div class="notice">每天的集合时间与地点，由工作组前一天在群内通知。</div>
+  <div class="notice">每天的集合时间与地点，由土士老师前一天在群内通知。</div>
 
   <article class="daypanel" id="d25">
     <div class="dh"><div class="dnum">DAY 1 · 10月25日 · 周日</div><div class="dtitle">抵达与开班</div><div class="dloc">旧金山 · Palo Alto</div></div>
-    <div class="sess"><div class="t">全天</div><div class="b"><span class="tag k">抵达</span><span class="ti">抵达旧金山 · 入住酒店</span><div class="sp">统一接机航班：UA858（上海）· CX870（香港）· UA889（北京）</div><div class="vn">Crowne Plaza Palo Alto · 4290 El Camino Real, Palo Alto, CA 94306</div></div></div>
+    <div class="sess"><div class="t">全天</div><div class="b"><span class="tag k">抵达</span><span class="ti">抵达旧金山 · 入住酒店</span><div class="sp">统一接机航班：UA858（上海）· CX870（香港）· UA889（北京）</div><div class="vn"><svg class="pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Crowne Plaza Palo Alto · 4290 El Camino Real, Palo Alto, CA 94306</span></div></div></div>
     <div class="sess"><div class="t">晚间</div><div class="b"><span class="tag k">开班</span><span class="ti">开班晚餐</span></div></div>
   </article>
 
   <article class="daypanel" id="d26">
     <div class="dh"><div class="dnum">DAY 2 · 10月26日 · 周一</div><div class="dtitle">硅谷创新与中美经贸</div><div class="dloc">Palo Alto · 旧金山</div></div>
-    <a class="sess" href="#s-wujun"><div class="t">09:30<br>12:00</div><div class="b"><span class="tag">专家课</span><span class="ti">硅谷创新与AI发展趋势</span><div class="sp">吴军博士 · 丰元资本创始合伙人</div><div class="vn">Crowne Plaza Palo Alto · Cyprus Room</div></div></a>
+    <a class="sess" href="#s-wujun"><div class="t">09:30<br>12:00</div><div class="b"><span class="tag">专家课</span><span class="ti">硅谷创新与AI发展趋势</span><div class="sp">吴军 · 丰元资本创始合伙人</div><div class="vn"><svg class="pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Palo Alto Event Center</span></div></div></a>
     <div class="sess"><div class="t">中午</div><div class="b"><span class="tag k">午餐</span><span class="ti">午餐</span></div></div>
     <div class="sess"><div class="t">下午</div><div class="b"><span class="tag k">自由活动</span><span class="ti">旧金山市区 · 三选一</span><div class="sp">SFMOMA 旧金山现代艺术博物馆（自行购票）· Yerba Buena Gardens 散步 · 到座谈酒店休息办公</div></div></div>
-    <a class="sess" href="#s-consulate"><div class="t">16:00<br>17:30</div><div class="b"><span class="tag">交流会</span><span class="ti">中美经贸关系及中企在美发展</span><div class="sp">张建敏总领事、邓参赞、张双奇 · 程虹秘书长主持</div><div class="vn">Hyatt Regency San Francisco Downtown SOMA · 50 Third Street, San Francisco, CA 94103</div></div></a>
+    <a class="sess" href="#s-consulate"><div class="t">16:00<br>17:30</div><div class="b"><span class="tag">交流会</span><span class="ti">中美经贸关系及中企在美发展</span><div class="sp">张建敏 · 中国驻旧金山总领事；邓参赞 · 总领馆经济商务处商务参赞</div><div class="vn"><svg class="pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Hyatt Regency San Francisco Downtown SOMA · 50 Third Street, San Francisco, CA 94103</span></div></div></a>
     <div class="sess"><div class="t">晚间</div><div class="b"><span class="tag k">同学会</span><span class="ti">同学会 · 晚餐</span><div class="sp">旧金山市内</div></div></div>
   </article>
 
   <article class="daypanel" id="d27">
     <div class="dh"><div class="dnum">DAY 3 · 10月27日 · 周二</div><div class="dtitle">硅谷起源与智能物流</div><div class="dloc">Palo Alto · Tracy</div></div>
-    <div class="sess"><div class="t">09:30<br>10:30</div><div class="b"><span class="tag">产业课</span><span class="ti">硅谷创业起源线</span><div class="sp">HP车库与大学路徒步讲解</div><div class="vn">起点 HP Garage · 367 Addison Ave, Palo Alto, CA 94301</div></div></div>
+    <div class="sess"><div class="t">09:30<br>10:30</div><div class="b"><span class="tag">产业课</span><span class="ti">硅谷创业起源线</span><div class="sp">严冰 · 本地导游 · HP车库与大学路徒步讲解</div><div class="vn"><svg class="pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>起点 HP Garage · 367 Addison Ave, Palo Alto, CA 94301</span></div></div></div>
     <div class="sess"><div class="t">中午</div><div class="b"><span class="tag k">午餐</span><span class="ti">午餐（Tracy）</span></div></div>
-    <a class="sess" href="#s-amazon"><div class="t">13:00<br>17:30</div><div class="b"><span class="tag">产业课</span><span class="ti">智能物流中心和产业链</span><div class="sp">亚马逊 OAK4 运营中心参观与分享</div><div class="vn">Amazon OAK4 · 1555 N Chrisman Rd, Tracy, CA 95376</div></div></a>
+    <a class="sess" href="#s-amazon"><div class="t">13:00<br>17:30</div><div class="b"><span class="tag">产业课</span><span class="ti">智能物流中心和产业链</span><div class="sp">亚马逊 OAK4 运营中心参观与分享</div><div class="vn"><svg class="pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Amazon OAK4 · 1555 N Chrisman Rd, Tracy, CA 95376</span></div></div></a>
     <div class="sess"><div class="t">晚间</div><div class="b"><span class="tag k">晚餐</span><span class="ti">晚餐 · 返回酒店</span></div></div>
   </article>
 
   <article class="daypanel" id="d28">
     <div class="dh"><div class="dnum">DAY 4 · 10月28日 · 周三</div><div class="dtitle">开放式创新与大厂AI战略</div><div class="dloc">Sunnyvale · Mountain View</div></div>
-    <a class="sess" href="#s-pnp"><div class="t">09:00<br>12:00</div><div class="b"><span class="tag">产业课</span><span class="ti">企业如何通过开放式创新实现增长</span><div class="sp">Plug and Play · 导师分享与初创企业路演</div><div class="vn">Plug and Play Tech Center · 440 N Wolfe Rd, Sunnyvale, CA 94085</div></div></a>
+    <a class="sess" href="#s-pnp"><div class="t">09:00<br>12:00</div><div class="b"><span class="tag">产业课</span><span class="ti">企业如何通过开放式创新实现增长</span><div class="sp">Momin Mirza · 硅谷企业战略专家；Rupa Chaturvedi · Human Centered AI Institute创始人 · 另有初创企业路演</div><div class="vn"><svg class="pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Plug and Play Tech Center · 440 N Wolfe Rd, Sunnyvale, CA 94085</span></div></div></a>
     <div class="sess"><div class="t">中午</div><div class="b"><span class="tag k">午餐</span><span class="ti">午餐</span></div></div>
-    <a class="sess" href="#s-google"><div class="t">15:00<br>17:30</div><div class="b"><span class="tag">产业课</span><span class="ti">硅谷大厂的AI战略与发展</span><div class="sp">Bill Jia · 谷歌工程副总裁</div><div class="vn">Google Visitor Experience · 2000 N Shoreline Blvd, Mountain View, CA 94043</div></div></a>
+    <a class="sess" href="#s-google"><div class="t">15:00<br>17:30</div><div class="b"><span class="tag">产业课</span><span class="ti">硅谷大厂的AI战略与发展</span><div class="sp">Bill Jia · 谷歌工程副总裁</div><div class="vn"><svg class="pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Google Visitor Experience · 2000 N Shoreline Blvd, Mountain View, CA 94043</span></div></div></a>
     <div class="sess"><div class="t">傍晚</div><div class="b"><span class="tag k">返回</span><span class="ti">返回酒店 · 晚餐自理</span></div></div>
   </article>
 
   <article class="daypanel" id="d29">
     <div class="dh"><div class="dnum">DAY 5 · 10月29日 · 周四</div><div class="dtitle">英伟达全天</div><div class="dloc">Santa Clara</div></div>
-    <a class="sess" href="#s-nvidia"><div class="t">09:30<br>12:00</div><div class="b"><span class="tag">产业课</span><span class="ti">英伟达软件战略与EBC展厅</span><div class="sp">Pat Lee · 英伟达副总裁</div><div class="vn">NVIDIA总部 · 2788 San Tomas Expressway, Santa Clara, CA 95051</div></div></a>
+    <a class="sess" href="#s-nvidia"><div class="t">09:30<br>12:00</div><div class="b"><span class="tag">产业课</span><span class="ti">英伟达软件战略与EBC展厅</span><div class="sp">Pat Lee · 英伟达副总裁</div><div class="vn"><svg class="pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>NVIDIA总部 · 2788 San Tomas Expressway, Santa Clara, CA 95051</span></div></div></a>
     <div class="sess"><div class="t">中午</div><div class="b"><span class="tag k">午餐</span><span class="ti">午餐（英伟达园区）</span></div></div>
-    <a class="sess" href="#s-nvidia"><div class="t">13:30<br>17:00</div><div class="b"><span class="tag">产业课</span><span class="ti">硬件产品 · 物理AI</span><div class="sp">Hemant Dhulla、Ludovico</div></div></a>
-    <div class="sess"><div class="t">17:00<br>18:30</div><div class="b"><span class="tag k">交流</span><span class="ti">园区参观 · 交流酒会</span><div class="sp">何展、张旭等英伟达同事 · 晚餐自理</div></div></div>
+    <a class="sess" href="#s-nvidia"><div class="t">13:30<br>17:00</div><div class="b"><span class="tag">产业课</span><span class="ti">硬件产品 · 物理AI</span><div class="sp">Hemant Dhulla · 英伟达副总裁；Ludovico · 英伟达高级总监</div></div></a>
+    <div class="sess"><div class="t">17:00<br>18:30</div><div class="b"><span class="tag k">交流</span><span class="ti">园区参观 · 交流酒会</span><div class="sp">何展 · 英伟达中国区Omniverse业务负责人；张旭 · 英伟达亚太区企业级AI软件与服务负责人 · 晚餐自理</div></div></div>
   </article>
 
   <article class="daypanel" id="d30">
     <div class="dh"><div class="dnum">DAY 6 · 10月30日 · 周五</div><div class="dtitle">产业AI落地与全球竞争格局</div><div class="dloc">Palo Alto · Stanford</div></div>
-    <a class="sess" href="#s-jia"><div class="t">上午</div><div class="b"><span class="tag">专家课</span><span class="ti">产业AI的工程化落地</span><div class="sp">贾扬清 · Intent Lab创始人兼CEO</div><div class="vn">Crowne Plaza Palo Alto · 会议室</div></div></a>
+    <a class="sess" href="#s-jia"><div class="t">上午</div><div class="b"><span class="tag">专家课</span><span class="ti">产业AI的工程化落地</span><div class="sp">贾扬清 · Intent Lab创始人兼CEO</div><div class="vn"><svg class="pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Crowne Plaza Palo Alto · 会议室</span></div></div></a>
     <div class="sess"><div class="t">中午</div><div class="b"><span class="tag k">午餐</span><span class="ti">午餐（斯坦福校园）</span></div></div>
-    <a class="sess" href="#s-stanford"><div class="t">13:30<br>16:30</div><div class="b"><span class="tag">专家课</span><span class="ti">AI创新和全球竞争格局</span><div class="sp">王捷博士 · 斯坦福SDGC执行主任 · 课后校园参观</div><div class="vn">Stanford University</div></div></a>
-    <div class="sess"><div class="t">晚间</div><div class="b"><span class="tag k">结班</span><span class="ti">结班宴</span><div class="vn">Stanford Shopping Center · 660 Stanford Shopping Center, Palo Alto, CA 94304</div></div></div>
+    <a class="sess" href="#s-stanford"><div class="t">13:30<br>16:30</div><div class="b"><span class="tag">专家课</span><span class="ti">AI创新和全球竞争格局</span><div class="sp">王捷 · 斯坦福SDGC执行主任 · 课后校园参观</div><div class="vn"><svg class="pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Stanford University</span></div></div></a>
+    <div class="sess"><div class="t">晚间</div><div class="b"><span class="tag k">结班</span><span class="ti">结班宴</span><div class="vn"><svg class="pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Stanford Shopping Center · 660 Stanford Shopping Center, Palo Alto, CA 94304</span></div></div></div>
   </article>
 
   <article class="daypanel" id="d31">
@@ -304,9 +307,9 @@ footer a{color:inherit}
   <div class="contact addr"><div><div class="who">10/29 NVIDIA 总部</div><div class="num">2788 San Tomas Expressway, Santa Clara, CA 95051</div></div><button class="copy" type="button">复制</button></div>
   <div class="contact addr"><div><div class="who">10/30 Stanford Shopping Center</div><div class="num">660 Stanford Shopping Center, Palo Alto, CA 94304</div></div><button class="copy" type="button">复制</button></div>
   <h3>联系电话</h3>
-  <div class="contact"><div><div class="who">工作组 赫蕊（微信同号）</div><a class="num" href="tel:+8613120109812">+86 131 2010 9812</a></div><button class="copy" type="button">复制</button></div>
-  <div class="contact"><div><div class="who">工作组 赖海若（微信同号）</div><a class="num" href="tel:+8615801779248">+86 158 0177 9248</a></div><button class="copy" type="button">复制</button></div>
-  <div class="contact"><div><div class="who">当地协调 严冰（美国号码）</div><a class="num" href="tel:+14154207755">+1 415-420-7755</a></div><button class="copy" type="button">复制</button></div>
+  <div class="contact"><div><div class="who">土士老师 赫蕊（微信同号）</div><a class="num" href="tel:+8613120109812">+86 131 2010 9812</a></div><button class="copy" type="button">复制</button></div>
+  <div class="contact"><div><div class="who">土士老师 赖海若（微信同号）</div><a class="num" href="tel:+8615801779248">+86 158 0177 9248</a></div><button class="copy" type="button">复制</button></div>
+  <div class="contact"><div><div class="who">本地导游 严冰（美国号码）</div><a class="num" href="tel:+14154207755">+1 415-420-7755</a></div><button class="copy" type="button">复制</button></div>
   <div class="contact"><div><div class="who">入住酒店 Crowne Plaza Palo Alto</div><a class="num" href="tel:+16508570787">+1 650-857-0787</a></div><button class="copy" type="button">复制</button></div>
   <h3>紧急求助</h3>
   <div class="contact"><div><div class="who">报警 · 消防 · 急救</div><a class="num" href="tel:911">911</a></div></div>
@@ -319,7 +322,7 @@ footer a{color:inherit}
   <div class="flight"><b>CA986</b><div class="rt">旧金山 → 北京首都<div class="small muted">10/31 · 次日抵达</div></div><div class="tm">13:00<br>→18:00</div></div>
   <div class="flight"><b>MU590</b><div class="rt">旧金山 → 上海浦东<div class="small muted">10/31 · 次日抵达</div></div><div class="tm">13:00<br>→17:35</div></div>
   <div class="flight"><b>UA869</b><div class="rt">旧金山 → 香港<div class="small muted">10/31 · 次日抵达</div></div><div class="tm">12:45<br>→19:20</div></div>
-  <p class="small muted">均为当地时间，以机票为准。以上航班统一安排接送机；乘坐其他航班的同学，请提前把航班号告知工作组。</p>
+  <p class="small muted">均为当地时间，以机票为准。以上航班统一安排接送机；乘坐其他航班的同学，请提前把航班号告知土士老师。</p>
 </section>
 
 <section id="v-roster" class="view">
@@ -329,8 +332,8 @@ footer a{color:inherit}
   <h3>带队与工作组</h3>
   <div class="company">
     <div class="m"><b>程虹</b><span>中国企业家俱乐部常务副理事长兼秘书长，土士创办人（带队）</span></div>
-    <div class="m"><b>赫蕊</b><span>土士学习联盟工作组</span></div>
-    <div class="m"><b>赖海若</b><span>中国企业家俱乐部国际合作总监，土士学习联盟工作组</span></div>
+    <div class="m"><b>赫蕊</b><span>土士老师</span></div>
+    <div class="m"><b>赖海若</b><span>土士老师</span></div>
   </div>
 </section>
 
@@ -338,24 +341,23 @@ footer a{color:inherit}
   <a class="back" href="#d26">10/26 日程</a>
   <div class="eyebrow" style="margin-top:14px">10/26 周一 · 上午 · 专家课</div>
   <h1>硅谷创新与AI发展趋势</h1>
-  <dl class="meta"><dt>时间</dt><dd>09:30 - 12:00</dd><dt>地点</dt><dd>Crowne Plaza Palo Alto · Cyprus Room</dd><dt>分享人</dt><dd>吴军博士 · 丰元资本创始合伙人</dd></dl>
+  <dl class="meta"><dt>时间</dt><dd>09:30 - 12:00</dd><dt>地点</dt><dd>Palo Alto Event Center</dd><dt>分享人</dt><dd>吴军 · 丰元资本创始合伙人</dd></dl>
   <h3>分享人简介</h3>
     <div class="person"><div class="ph">吴</div><div><div class="nm">吴军<small>Dr. Jun Wu</small></div><div class="rl">丰元资本创始合伙人 · 约翰·霍普金斯大学工学院董事 · 上海交通大学客座教授</div><p>清华大学学士、硕士，约翰·霍普金斯大学计算机科学博士。曾任职谷歌，主导设计中、日、韩文搜索算法；2010至2012年任腾讯副总裁。2012年共同创立丰元资本。著有《浪潮之巅》《数学之美》《硅谷之谜》《智能时代》等。</p></div></div>
   <h3>企业介绍 · 丰元资本 Amino Capital</h3>
-  <div class="co"><p>2012年由吴军等在硅谷创立的早期科技投资基金，投资方向为人工智能、大数据、企业软件与医疗科技，所投企业横跨中美。非上市基金，无公开财务数据。</p></div>
+  <div class="co"><p>2012年由吴军等在硅谷创立的早期科技投资基金，投资方向为人工智能、大数据、企业软件与医疗科技，所投企业横跨中美。非上市基金，无公开财务数据。</p><div class="why"><b>为什么值得看</b>吴军是少数既在谷歌、腾讯做过核心技术与管理，又在硅谷做了十多年早期投资的人。《浪潮之巅》写透了科技公司兴衰的规律，这次是他在 2026 年 AI 浪潮正中间，当面给出判断。</div></div>
 </section>
 
 <section id="v-s-consulate" class="view detail">
   <a class="back" href="#d26">10/26 日程</a>
   <div class="eyebrow" style="margin-top:14px">10/26 周一 · 下午 · 交流会</div>
   <h1>中美经贸关系及中企在美发展</h1>
-  <dl class="meta"><dt>时间</dt><dd>16:00 - 17:00 总领事座谈与问答<br>17:00 - 17:30 与邓参赞及经商处同事交流</dd><dt>地点</dt><dd>Hyatt Regency San Francisco Downtown SOMA · 50 Third Street, San Francisco, CA 94103</dd><dt>出席</dt><dd>张建敏总领事、邓参赞（经济商务处）、经济商务处张双奇</dd><dt>主持</dt><dd>程虹秘书长</dd></dl>
+  <dl class="meta"><dt>时间</dt><dd>16:00 - 17:00 总领事座谈与问答<br>17:00 - 17:30 与邓参赞及经商处同事交流</dd><dt>地点</dt><dd>Hyatt Regency San Francisco Downtown SOMA · 50 Third Street, San Francisco, CA 94103</dd><dt>出席</dt><dd>张建敏总领事、邓参赞（经济商务处商务参赞）、经济商务处张双奇</dd></dl>
   <h3>嘉宾简介</h3>
     <div class="person"><img src="data:image/jpeg;base64,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" alt="张建敏总领事" loading="lazy"><div><div class="nm">张建敏<small>ZHANG Jianmin</small></div><div class="rl">中华人民共和国驻旧金山总领事</div><p>1990年进入外交部，长期在翻译室工作，曾任驻美国大使馆参赞、翻译司司长；2018至2022年任驻捷克大使，2022年起任驻旧金山总领事。</p></div></div>
     <div class="person"><div class="ph">邓</div><div><div class="nm">邓参赞</div><div class="rl">驻旧金山总领事馆经济商务处 商务参赞</div></div></div>
-    <div class="person"><div class="ph">程</div><div><div class="nm">程虹<small>CHENG Hong</small></div><div class="rl">中国企业家俱乐部常务副理事长兼秘书长 · 土士创办人 · 座谈主持</div></div></div>
   <h3>企业介绍 · 中国驻旧金山总领事馆经济商务处</h3>
-  <div class="co"><p>商务部派驻领区的经贸机构，负责北加州及周边州的中美经贸合作、贸易投资促进与中资企业服务，为中资企业提供政策法规咨询、协调贸易摩擦与合规问题，是中企在领区的第一联络点。</p></div>
+  <div class="co"><p>商务部派驻领区的经贸机构，负责北加州及周边州的中美经贸合作、贸易投资促进与中资企业服务，为中资企业提供政策法规咨询、协调贸易摩擦与合规问题，是中企在领区的第一联络点。</p><div class="why"><b>为什么值得看</b>领区覆盖硅谷与西海岸港口，是中企在美最密集的区域。关税、出口管制、投资审查在 2026 年都有新变化，总领事和经商处是最接近一线、也最有发言权的官方声音。</div></div>
 </section>
 
 <section id="v-s-amazon" class="view detail">
@@ -364,7 +366,7 @@ footer a{color:inherit}
   <h1>智能物流中心和产业链</h1>
   <dl class="meta"><dt>时间</dt><dd>13:00 - 17:30</dd><dt>地点</dt><dd>Amazon OAK4 · 1555 N Chrisman Rd, Tracy, CA 95376</dd><dt>形式</dt><dd>运营中心参观 + 供应链与物流分享</dd></dl>
   <h3>企业介绍 · 亚马逊 Amazon</h3>
-  <div class="co"><p>1994年创立，1997年上市。三条主线：电商与 Prime 会员、云计算 AWS（贡献集团大部分利润）、物流与履约（FBA 向第三方卖家开放）。2012年收购 Kiva 开始仓储机器人化，2025年全球机器人超过100万台。OAK4 位于 Tracy，是亚马逊在加州对公众开放的运营中心之一，定位为机器人化小件分拣中心。</p><p style="margin-bottom:4px"><b>近三年财务数据</b><span class="muted small">（亿美元）</span></p><table class="fin"><tr><th>年度</th><th>2023</th><th>2024</th><th>2025</th></tr><tr><td>净销售额</td><td>5,748</td><td>6,380</td><td>7,169</td></tr><tr><td>营业利润</td><td>369</td><td>686</td><td>800</td></tr><tr><td>净利润</td><td>304</td><td>592</td><td>777</td></tr><tr><td>其中 AWS</td><td>908</td><td>1,076</td><td>1,287</td></tr></table><p class="fin-src">来源：Amazon 各年年报及2025年全年业绩公告</p></div>
+  <div class="co"><p>1994年创立，1997年上市。三条主线：电商与 Prime 会员、云计算 AWS（贡献集团大部分利润）、物流与履约（FBA 向第三方卖家开放）。2012年收购 Kiva 开始仓储机器人化，2025年全球机器人超过100万台。OAK4 位于 Tracy，是亚马逊在加州对公众开放的运营中心之一，定位为机器人化小件分拣中心。</p><div class="why"><b>为什么值得看</b>全球最大的机器人化仓储网络，100 万台机器人、75% 的订单有机器人参与。OAK4 是对公众开放的少数几个运营中心之一，能近距离看“货到人”的人机分工怎样运转，对制造、零售、物流企业都有直接对照价值。</div><p style="margin-bottom:4px"><b>近三年财务数据</b><span class="muted small">（亿美元）</span></p><table class="fin"><tr><th>年度</th><th>2023</th><th>2024</th><th>2025</th></tr><tr><td>净销售额</td><td>5,748</td><td>6,380</td><td>7,169</td></tr><tr><td>营业利润</td><td>369</td><td>686</td><td>800</td></tr><tr><td>净利润</td><td>304</td><td>592</td><td>777</td></tr><tr><td>其中 AWS</td><td>908</td><td>1,076</td><td>1,287</td></tr></table><p class="fin-src">来源：Amazon 各年年报及2025年全年业绩公告</p></div>
 </section>
 
 <section id="v-s-pnp" class="view detail">
@@ -376,7 +378,7 @@ footer a{color:inherit}
     <div class="person"><div class="ph">M</div><div><div class="nm">Momin Mirza</div><div class="rl">硅谷企业战略专家 · 曾任施乐公司战略负责人</div><p>曾在施乐负责战略规划与战略合作；此前在Verizon近二十年，主攻AI、移动商务与物联网。</p></div></div>
     <div class="person"><div class="ph">R</div><div><div class="nm">Rupa Chaturvedi</div><div class="rl">Human Centered AI Institute创始人 · 斯坦福产品设计兼职讲师</div><p>约20年产品设计经验，曾负责亚马逊Alexa与谷歌Nest的用户体验，后任Uber Eats商户端设计负责人。</p></div></div>
   <h3>企业介绍 · Plug and Play Tech Center</h3>
-  <div class="co"><p>2006年由 Saeed Amidi 创立，总部 Sunnyvale，全球最大的企业创新平台与早期投资机构之一。模式是"大企业出题、初创解题"：大企业付费成为会员提出真实命题，初创企业免费入营、不出让股权，双方做概念验证与试点。全球60余个办公室、550多家大企业伙伴，每年投资约250家初创企业，累计超2,000家；2016年进入中国。非上市公司，无公开财务数据。</p></div>
+  <div class="co"><p>2006年由 Saeed Amidi 创立，总部 Sunnyvale，全球最大的企业创新平台与早期投资机构之一。模式是"大企业出题、初创解题"：大企业付费成为会员提出真实命题，初创企业免费入营、不出让股权，双方做概念验证与试点。全球60余个办公室、550多家大企业伙伴，每年投资约250家初创企业，累计超2,000家；2016年进入中国。非上市公司，无公开财务数据。</p><div class="why"><b>为什么值得看</b>硅谷最成熟的“大企业与初创对接”机制：不占股权、以企业真实命题驱动，PayPal、Dropbox 都曾在此起步。对想在海外设创新前哨、筛选初创合作伙伴的企业，这是一套可以直接借鉴的运作方法。</div></div>
 </section>
 
 <section id="v-s-google" class="view detail">
@@ -387,7 +389,7 @@ footer a{color:inherit}
   <h3>分享人简介</h3>
     <div class="person"><div class="ph">B</div><div><div class="nm">Bill Jia</div><div class="rl">谷歌工程副总裁 · 核心机器学习与人工智能（Core ML/AI）负责人</div><p>2023年12月加入谷歌，此前在Facebook/Meta约14年，曾任AI基础设施与平台副总裁。上海交大学士，新加坡国立大学硕士，南加州大学博士。</p></div></div>
   <h3>企业介绍 · 谷歌 Google / Alphabet</h3>
-  <div class="co"><p>1998年创立于斯坦福，2015年重组为 Alphabet。主营业务是以广告为核心的搜索、YouTube、安卓，以及 Google Cloud 云业务。Transformer 架构发源地，拥有 DeepMind、自研 TPU 芯片与 Gemini 模型，算力、模型、云、分发四层自有。</p><p style="margin-bottom:4px"><b>近三年财务数据</b><span class="muted small">（亿美元）</span></p><table class="fin"><tr><th>年度</th><th>2023</th><th>2024</th><th>2025</th></tr><tr><td>总收入</td><td>3,074</td><td>3,500</td><td>4,028</td></tr><tr><td>营业利润</td><td>843</td><td>1,124</td><td>1,290</td></tr><tr><td>净利润</td><td>738</td><td>1,001</td><td>1,322</td></tr></table><p class="fin-src">来源：Alphabet 各年年报及2025年全年业绩公告</p></div>
+  <div class="co"><p>1998年创立于斯坦福，2015年重组为 Alphabet。主营业务是以广告为核心的搜索、YouTube、安卓，以及 Google Cloud 云业务。Transformer 架构发源地，拥有 DeepMind、自研 TPU 芯片与 Gemini 模型，算力、模型、云、分发四层自有。</p><div class="why"><b>为什么值得看</b>全球唯一把算力（TPU）、模型（Gemini）、云、分发（搜索、安卓、YouTube）四层都握在自己手里的公司，Transformer 架构的发源地。分享人 Bill Jia 正是负责 TPU 软件栈与训练推理的人，能讲清大厂 AI 基础设施的真实打法。</div><p style="margin-bottom:4px"><b>近三年财务数据</b><span class="muted small">（亿美元）</span></p><table class="fin"><tr><th>年度</th><th>2023</th><th>2024</th><th>2025</th></tr><tr><td>总收入</td><td>3,074</td><td>3,500</td><td>4,028</td></tr><tr><td>营业利润</td><td>843</td><td>1,124</td><td>1,290</td></tr><tr><td>净利润</td><td>738</td><td>1,001</td><td>1,322</td></tr></table><p class="fin-src">来源：Alphabet 各年年报及2025年全年业绩公告</p></div>
 </section>
 
 <section id="v-s-nvidia" class="view detail">
@@ -402,7 +404,7 @@ footer a{color:inherit}
     <div class="person"><div class="ph">何</div><div><div class="nm">何展<small>Zeno He</small></div><div class="rl">英伟达中国区Omniverse业务负责人</div></div></div>
     <div class="person"><div class="ph">张</div><div><div class="nm">张旭<small>Joey Zhang</small></div><div class="rl">英伟达亚太区企业级AI软件与服务负责人</div></div></div>
   <h3>企业介绍 · 英伟达 NVIDIA</h3>
-  <div class="co"><p>1993年创立，总部圣克拉拉。1999年定义 GPU，2006年推出 CUDA，是 AI 算力的主要供应商。把 GPU、CPU、网络、系统与软件打包成"AI 工厂"整体方案，数据中心业务占收入九成以上；企业软件（AI Enterprise、NIM）与 Omniverse、物理AI 平台是本次分享的重点。财年截至次年1月底。</p><p style="margin-bottom:4px"><b>近三年财务数据</b><span class="muted small">（亿美元）</span></p><table class="fin"><tr><th>财年</th><th>FY2024</th><th>FY2025</th><th>FY2026</th></tr><tr><td>收入</td><td>609</td><td>1,305</td><td>2,159</td></tr><tr><td>营业利润</td><td>330</td><td>815</td><td>1,304</td></tr><tr><td>净利润</td><td>298</td><td>729</td><td>1,201</td></tr><tr><td>其中数据中心</td><td>475</td><td>1,152</td><td>1,937</td></tr></table><p class="fin-src">来源：NVIDIA 各财年年报及2026财年全年业绩公告</p></div>
+  <div class="co"><p>1993年创立，总部圣克拉拉。1999年定义 GPU，2006年推出 CUDA，是 AI 算力的主要供应商。把 GPU、CPU、网络、系统与软件打包成"AI 工厂"整体方案，数据中心业务占收入九成以上；企业软件（AI Enterprise、NIM）与 Omniverse、物理AI 平台是本次分享的重点。财年截至次年1月底。</p><div class="why"><b>为什么值得看</b>全球市值最高的公司，AI 算力的事实标准，CUDA 生态让换芯片的成本远高于芯片本身。全天在总部进行，软件、硬件、物理AI 三条线的负责人依次分享，加上 EBC 展厅与园区参观，是本周信息密度最高的一天。</div><p style="margin-bottom:4px"><b>近三年财务数据</b><span class="muted small">（亿美元）</span></p><table class="fin"><tr><th>财年</th><th>FY2024</th><th>FY2025</th><th>FY2026</th></tr><tr><td>收入</td><td>609</td><td>1,305</td><td>2,159</td></tr><tr><td>营业利润</td><td>330</td><td>815</td><td>1,304</td></tr><tr><td>净利润</td><td>298</td><td>729</td><td>1,201</td></tr><tr><td>其中数据中心</td><td>475</td><td>1,152</td><td>1,937</td></tr></table><p class="fin-src">来源：NVIDIA 各财年年报及2026财年全年业绩公告</p></div>
 </section>
 
 <section id="v-s-jia" class="view detail">
@@ -413,7 +415,7 @@ footer a{color:inherit}
   <h3>分享人简介</h3>
     <div class="person"><div class="ph">贾</div><div><div class="nm">贾扬清<small>Yangqing Jia</small></div><div class="rl">Intent Lab创始人兼CEO · 前英伟达副总裁 · 前阿里巴巴集团副总裁</div><p>清华大学本硕，伯克利博士，深度学习框架Caffe作者。曾任职谷歌大脑、Facebook，2019年任阿里巴巴集团副总裁；2023年创立Lepton AI，2025年被英伟达收购；2026年创立Intent Lab。</p></div></div>
   <h3>企业介绍 · Intent Lab</h3>
-  <div class="co"><p>2026年7月在硅谷成立，定位是"把用户意图直接转化为生产级软件"，核心产品 Fleet 是由多个 AI 智能体组成的自主工程团队。成立不到三个月，产品处于早期验证阶段。初创公司，无公开财务数据。</p></div>
+  <div class="co"><p>2026年7月在硅谷成立，定位是"把用户意图直接转化为生产级软件"，核心产品 Fleet 是由多个 AI 智能体组成的自主工程团队。成立不到三个月，产品处于早期验证阶段。初创公司，无公开财务数据。</p><div class="why"><b>为什么值得看</b>贾扬清是 Caffe 作者、PyTorch 1.0 联合负责人、阿里云计算平台负责人，刚从英伟达出来创业，做的是“AI 智能体自主写生产级软件”这条最前沿的路线。他能同时讲清大厂和创业公司在 AI 工程化上的不同打法。</div></div>
 </section>
 
 <section id="v-s-stanford" class="view detail">
@@ -424,10 +426,10 @@ footer a{color:inherit}
   <h3>分享人简介</h3>
     <div class="person"><div class="ph">王</div><div><div class="nm">王捷<small>Dr. Jie Wang</small></div><div class="rl">斯坦福大学土木与环境工程系兼职教授 · 可持续发展与全球竞争力中心（SDGC）执行主任</div><p>上海交大本科，斯坦福硕士、博士。2003年起在斯坦福任教，2008年起任SDGC执行主任，研究智慧城市与智能基础设施、智能制造、可持续战略与企业治理。</p></div></div>
   <h3>企业介绍 · 斯坦福 SDGC</h3>
-  <div class="co"><p>可持续发展与全球竞争力中心设在斯坦福土木与环境工程系，2008年起由王捷博士任执行主任，长期与中国企业、地方政府和高校合作开办高管研修项目。</p></div>
+  <div class="co"><p>可持续发展与全球竞争力中心设在斯坦福土木与环境工程系，2008年起由王捷博士任执行主任，长期与中国企业、地方政府和高校合作开办高管研修项目。</p><div class="why"><b>为什么值得看</b>斯坦福是硅谷的源头，1951 年设立世界第一个大学研究园。SDGC 长期研究智能制造、智慧城市与企业竞争力，并与中国企业有多年合作，王捷教授对中美两边的产业都熟悉，适合在最后一天把全球竞争格局和自家企业放在一起看。</div></div>
 </section>
 
-<footer>Chinese Entrepreneur Club · Tosee Learning · 土士学习联盟第十四期美国周 · 每天的集合时间与地点，以工作组通知为准。<span class="ver">更新于10月9日 · <a href="javascript:location.replace(location.pathname+'?r='+Date.now()+location.hash)">检查更新</a></span></footer>
+<footer>Chinese Entrepreneur Club · Tosee Learning · 土士学习联盟第十四期美国周 · 每天的集合时间与地点，以土士老师通知为准。<span class="ver">更新于10月12日 · <a href="javascript:location.replace(location.pathname+'?r='+Date.now()+location.hash)">检查更新</a></span></footer>
 </div>
 
 <nav class="bnav" aria-label="主导航"><ul>
