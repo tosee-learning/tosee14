@@ -1,0 +1,11 @@
+qr_wujun http://www.hq.xinhuanet.com/20260712/7b0be283a0934732a6e3737729a4b8ca/c.html
+qr_zjm1 https://cn.chinadaily.com.cn/a/202605/28/WS6a17dd13a310942cc49aec0f.html
+qr_zjm2 https://www.news.cn/20260928/b650acf6d82d4f57b12cbbffc77ad236/c.html
+qr_origin https://a16z.com/podcast/marc-andreessen-on-the-mindset-of-great-founders-with-david-senra/
+qr_amazon https://www.aboutamazon.com/news/operations/amazon-proteus-robot-europe-investment-employee-support
+qr_pnp https://www.prnewswire.com/news-releases/plug-and-play-announces-silicon-valley-fall-batches-of-2026-302892764.html
+qr_google https://blog.google/intl/zh-tw/sundar-pichai-io-2026/
+qr_nv1 https://blogs.nvidia.cn/blog/inference-software-lowest-token-cost/
+qr_nv2 https://blogs.nvidia.cn/blog/kelin-physical-ai/
+qr_jia https://intentlab.ai/blog/turn-your-intent-into-production-systems
+qr_wangjie http://world.people.com.cn/n1/2026/0415/c1002-40701316.html

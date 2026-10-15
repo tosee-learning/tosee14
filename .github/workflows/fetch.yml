@@ -2,7 +2,7 @@ name: fetch-photos
 on:
   push:
     branches: [photos-fetch]
-    paths: [urls.txt, .github/workflows/fetch.yml]
+    paths: [urls.txt, qr.txt, .github/workflows/fetch.yml]
 permissions:
   contents: write
 jobs:
@@ -16,10 +16,26 @@ jobs:
           UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
           while read -r name url; do
             [ -z "$name" ] && continue
+            [ -s "photos/$name" ] && continue
             code=$(curl -sSL -A "$UA" -o "photos/$name" -w "%{http_code}" --max-time 40 "$url" || echo ERR)
             echo "$name $code $(stat -c %s photos/$name 2>/dev/null)" | tee -a photos/_log.txt
           done < urls.txt
+      - name: qr
+        run: |
+          pip install -q qrcode pillow
+          mkdir -p qr
+          python3 - <<'PY'
+          import qrcode
+          for line in open('qr.txt'):
+              line=line.strip()
+              if not line: continue
+              name,url=line.split(None,1)
+              q=qrcode.QRCode(error_correction=qrcode.constants.ERROR_CORRECT_M, box_size=20, border=1)
+              q.add_data(url); q.make(fit=True)
+              q.make_image(fill_color="black", back_color="white").save(f"qr/{name}.png")
+          PY
+          ls -la qr
       - name: commit
         run: |
           git config user.name "photo-bot"; git config user.email "photo-bot@users.noreply.github.com"
-          git add photos && git commit -m "photos" && git push
+          git add photos qr && (git commit -m "photos+qr" && git push) || echo "nothing to commit"
