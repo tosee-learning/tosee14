@@ -1,0 +1,17 @@
+zhangxu_chengdu5.png https://blogs.nvidia.cn/wp-content/uploads/sites/20/2024/12/chengdu5.png
+zhangxu_sina2025.png https://n.sinaimg.cn/spider20250620/199/w1080h719/20250620/8ed1-237674f5de0f2ea1f054153d848445e6.png
+zhangxu_wuhan2025.jpg https://blogs.nvidia.cn/wp-content/uploads/sites/20/2025/07/2025-inception-showcase-wuhan-2.jpg
+zhangxu_eet.png https://static.mianbaoban-assets.eet-china.com/xinyu-images/MBXY-CR-5eaf1086a3e83328311519244ab45066.png
+hezhan_birtv.png https://cdn.tvtalk.cn/wp-content/uploads/2023/08/image1-%E6%8B%B7%E8%B4%9D-720x718.png
+hezhan_eetcard.png https://static.mianbaoban-assets.eet-china.com/xinyu-images/MBXY-CR-9eb30b35233ada5956fc7554234dae93.png
+hezhan_beijing25.png https://blogs.nvidia.cn/wp-content/uploads/sites/20/2024/12/beijing25.png
+hezhan_jn2.png https://jnexpert-oss1.oss-cn-beijing.aliyuncs.com/upload/expert/f64a_2178284b.png
+billjia_sessionize.jpg https://cdn.sessionize.com/image/49b4-400o400o1-RTBS8r2S4uFNX3h1XFxQbh.jpg
+billjia_podbean.jpg https://d2bwo9zemjwxh5.cloudfront.net/ep-logo/pbblog17792056/Bill_Jia_SQb1kaj_1200x628.jpg
+wujun_jhu.jpg https://www.cs.jhu.edu/wp-content/uploads/2019/05/Untitled-design.jpg
+momin_gbdc.jpeg https://www.globalbigdataconference.com/Content/User/speaker/thumb/112942-speaker.jpeg
+momin_cb.jpg https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/q_30/aw79fkbu53kql6tlwf9l
+jia_profile.jpg https://daggerfs.com/assets/img/profile.jpg
+wangjie_stanford.jpg https://profiles.stanford.edu/proxy/api/cap/profiles/41695/resources/profilephoto/350x350.1510512566142.jpg
+wangjie_sdgc.gif https://sdgc.stanford.edu/sites/g/files/sbiybj18741/files/styles/square_1900/public/media/image/jie-wang-photo-2020__0.gif?h=9b7be101&itok=mgI-lQBp
+chenghong_daonong.png https://www.daonong.com/template/default/index/images/about_ls10.png
