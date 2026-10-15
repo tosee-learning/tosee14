@@ -15,3 +15,6 @@ jia_profile.jpg 200 52236
 wangjie_stanford.jpg 200 10794
 wangjie_sdgc.gif 200 1395852
 chenghong_daonong.png 200 424888
+zhangxu_eet.png 000ERR 
+hezhan_birtv.png 403 0
+hezhan_eetcard.png 000ERR 
